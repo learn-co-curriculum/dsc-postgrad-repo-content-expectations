@@ -20,7 +20,7 @@ In [The Elements of Data Analytic Style](https://leanpub.com/datastyle), by [Jef
 > -  Conclusions including potential problems
 > -  References
 
-Data science projects at flatiron school include two forms of documentation, the Jupyer Notebook and the Readme. The jupyter notebook is the long-form documentation of the analysis and the readme is a short summary and provides guidance to navigate the repository structure. 
+Data science projects at flatiron school include two forms of documentation, the **Jupyer Notebook** and the **Readme**. The jupyter notebook is the long-form documentation of the analysis and the readme is a short summary and provides guidance to navigate the repository structure. 
 
 In the Jupyter notebook, you capture the requirements Jeff Leek describes in these sections
 
@@ -38,9 +38,14 @@ As with the name of you files  and repository, the title of the notebook should 
 
 ### Business Understanding
 
-Clearly explains the real-world value the project has for a specific stakeholder.	
-Easy to see how the problem impacts the organization
-What is the variable, and how will using it, impact the organization. 
+This section clearly explains the real-world value the project has for a specific stakeholder and how a problem will be addressed by this analysis.
+
+**Example questions to be answered:** <br>
+- How much time will this solution save?
+- Who will this solution help?
+- What need does this analysis address?
+- How well does the metric or target variable directly relate to the real world problem?
+
 
 ### Data Understanding
 
