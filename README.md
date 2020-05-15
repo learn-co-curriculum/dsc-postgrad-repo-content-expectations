@@ -24,12 +24,12 @@ Data science projects at flatiron school include two forms of documentation, the
 
 In the Jupyter notebook, you capture the requirements Jeff Leek describes in these sections
 
-- Title
-- Business understanding
-- Data understanding
-- Data preparation
-- Modeling
-- Evaluation
+- **Title**
+- **Business understanding**
+- **Data understanding**
+- **Data preparation**
+- **Modeling**
+- **Evaluation**
 
 Each section has a set of requirements and questions it should be able to address.
 
@@ -65,17 +65,15 @@ This section relates data source and properties of variables to the real-world p
 
 ### Data Preparation
 
-Data preparation is fully documented, including valid justification for decisions	All data preparation steps are reproducible and justifiable.
+An employer should be replicate your data cleaning and preparation from the raw data to right before analysis using your data preparation code. A quality data preparation fully documents and justifies decisions to merge, drop, or transform  variables. 
 
 **Example questions to be answered:** <br>
+- Can someone  else replicate your entire data preparation process?
+- If you created the data through scraping or an API, can someone repeat that process?
+- In what form is the data stored?
 - There should be code that can take the raw data and get it ready for analysis, can be run again
-- ideally code to get the data (if scraped or API,etc)
-- ideally pipelined code, but that's an AAB aspect
-In what form is the data stored?
-Did you use a pre-made dataset or did you create your own?
-What kind of preprocessing steps do you foresee?
-How much data are you expecting to collect?
-
+- Is the code in pipeline form?
+- Is all the  preprocessing code in the notebook or is it in separate `py` files?
 
 ### Modeling
 
