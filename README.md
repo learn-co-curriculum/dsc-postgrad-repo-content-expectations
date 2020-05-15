@@ -31,9 +31,10 @@ In the Jupyter notebook, you capture the requirements Jeff Leek describes in the
 - Modeling
 - Evaluation
 
-Each section has a set of requirements and questions it should be able to answer.
+Each section has a set of requirements and questions it should be able to address.
 
 ### Title
+
 As with the name of you files  and repository, the title of the notebook should also be descriptive. "Flatiron Capstone Project Analysis"  is  not as  informative as [Lindsey put new title here, like "An Analysis of the impact of...  etc]. An even  catchier title  would be [another fill in here].
 
 ### Business Understanding
@@ -46,23 +47,27 @@ This section clearly explains the real-world value the project has for a specifi
 - What need does this analysis address?
 - How well does the metric or target variable directly relate to the real world problem?
 
-
 ### Data Understanding
 
-Relates data source and properties of variables to the real-world problem of interest.	Describes data source and properties of all variables used in data preparation and modeling.
-- where does the data come from
-- what do the variables mean
-- who is in the sample
-- what elements of the data will/won't address the problem you are trying to solve
-- look for outliers, nas, examine every variable you plan to use
-- Are there any issues in term of permission? copy right? ethical issues? confidential
-- What additional data would be really helpful and is there any way to get it?
+This section relates data source and properties of variables to the real-world problem of interest. Jumping straight into the modeling without demonstrating a thoruogh understanding of the data is amateur hour. A robust data understanding section will describe the source and properties of all the variables used in the data preperation and modeling sections.
+
+**Example questions to be answered:** <br>
+- Where does the data come from?
+- What do the variables mean in actual language?
 - What is the target varialbe?
+- What is the range or scale of each variable?
+- Who is in the sample  or how was the data colllected?
+- What elements of the data will or will not address the business question?
+- Are there any issues in term of data permissions, copy right, ethical issues, or confidential information?
+- Are there any interesting aspects or anomolies in the data such as outliers or missing data?
+- What additional data would be really helpful in your analysis? 
+
 
 ### Data Preparation
 
 Data preparation is fully documented, including valid justification for decisions	All data preparation steps are reproducible and justifiable.
 
+**Example questions to be answered:** <br>
 - There should be code that can take the raw data and get it ready for analysis, can be run again
 - ideally code to get the data (if scraped or API,etc)
 - ideally pipelined code, but that's an AAB aspect
@@ -75,10 +80,13 @@ How much data are you expecting to collect?
 ### Modeling
 
 Model development is correct, iterative, and fully documented, including valid justification for decisions	Models are developed iteratively and justifiably, proceeding from a simple baseline model to more complex models.
+**Example questions to be answered:** <br>
 
 ### Evaluation
 
-Clearly explains how well the project solves the real-world problem of interest.	Cross validation or another validation process is used correctly to evaluate model performance. 
+Clearly explains how well the project solves the real-world problem of interest.	Cross validation or another validation process is used correctly to evaluate model performance.
+
+**Example questions to be answered:** <br>
 - not just about evaluation metrics, but also about how well your analysis answers the business question itself
 What metrics will you use to determine success?
 What are the reach goals of the project?
