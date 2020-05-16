@@ -62,7 +62,6 @@ This section relates data source and properties of variables to the real-world p
 - Are there any interesting aspects or anomolies in the data such as outliers or missing data?
 - What additional data would be really helpful in your analysis? 
 
-
 ### Data Preparation
 
 An employer should be replicate your data cleaning and preparation from the raw data to right before analysis using your data preparation code. A quality data preparation fully documents and justifies decisions to merge, drop, or transform  variables. 
@@ -77,20 +76,30 @@ An employer should be replicate your data cleaning and preparation from the raw 
 
 ### Modeling
 
-Model development is correct, iterative, and fully documented, including valid justification for decisions	Models are developed iteratively and justifiably, proceeding from a simple baseline model to more complex models.
+While model development is an interative process, not every analysis explored should be in your final project notebook.
+correct, iterative, and fully documented, including valid justification for decisions	Models are developed iteratively and justifiably, proceeding from a simple baseline model to more complex models.
+
 **Example questions to be answered:** <br>
+- Is the information you are including absolutley relelvant?
+- Is your final model specified in an equation or pseudocode, and not just specified in code?
+- When you describe the parameter or ceoficients, do you describe it in real terms?
+- Have you examined any problems with the data that might be impacting the quallity of your analysi or model?
 
 ### Evaluation
 
-Clearly explains how well the project solves the real-world problem of interest.	Cross validation or another validation process is used correctly to evaluate model performance.
+Evaluation is not just about accuracy or r-squared. While those metrics are important, the evaluation section also needs to address how well (or not) the model solves the original business problem. The limitiations are just as important as the successes. 
 
-**Example questions to be answered:** <br>
-- not just about evaluation metrics, but also about how well your analysis answers the business question itself
-What metrics will you use to determine success?
-What are the reach goals of the project?
-- what potential problems are there with your analysis?
-- next steps
-- limitations of analysis
+**Example questions about _the model_:** <br>
+- What evaluation metrics did you use?
+- Were there special considerations you made when choosing that evaluation metric?
+- How does your model's metric compare to industry standards or what is already out there?
+- Was cross vallidation included in your process and what concerns did that address?
+
+**Example questions about _the application_:** <br>
+- What are the limitations of interpreting your analysis?
+- What next steps would you take in this analysis? What new data would you want to incorperate?
+- How well does your analysis answer the actual business question and concern?
+- What sort of impact would your results actually have?
 
 [EXERCISE EXAMPLE OF ADDING LIMITATIONS TO NOTEBOOK - LINDSEY]
 
