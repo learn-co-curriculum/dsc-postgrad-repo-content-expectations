@@ -22,6 +22,7 @@ In [The Elements of Data Analytic Style](https://leanpub.com/datastyle), by [Jef
 
 Data science projects at flatiron school include two forms of documentation, the **Jupyer Notebook** and the **Readme**. The jupyter notebook is the long-form documentation of the analysis and the readme is a short summary and provides guidance to navigate the repository structure. 
 
+## Jupyter Notebook Content
 In the Jupyter notebook, you capture the requirements Jeff Leek describes in these sections
 
 - **Title**
@@ -101,13 +102,41 @@ Evaluation is not just about accuracy or r-squared. While those metrics are impo
 - How well does your analysis answer the actual business question and concern?
 - What sort of impact would your results actually have?
 
-[EXERCISE EXAMPLE OF ADDING LIMITATIONS TO NOTEBOOK - LINDSEY]
+## README Content
 
+The README is at once an abstract, a road map, and a how-to manual. While not labeled explicity, a quality readme includeds: 
+### Content summary
+- Detailed description of your business question
+- A summary of your data science process, findings, and ideas future improvment
+- At least one interesting visuallization from your analysis
+### Road map
+- Repository navigation
+- Links to the presentation slides, notebook, and other relevant documentatin
+- Links to sources, such as the data, papers referenced, or other important material
+### How-to manual
+- Reproduction instructions
+- How to contact you information
 
-## List of questions to be answered in each section
-[checklist](https://github.com/learn-co-curriculum/dsc-capstone-submission-checklist)
+***
 
-### Other approaches and inspiration
+## Exercises
+
+### Notebook
+
+Examine the following selection from the jupyter notebook and identify what is missing...
+[ LINDSEY - do this a few times]
+
+### Readme
+Examine the Readme [here](link) and identify which of these aspects is missing or incomplete(could be more than one)...
+
+- Detailed description of your business question
+- Repository navigation (want this to be missing and point them towards the `tree` package to create it)
+- Links to the presentation slides, notebook, and other relevant documentatin
+- Links to sources, such as the data, papers referenced, or other important material
+- Reproduction instructions (also want this to be missing)
+- How to contact you information
+
+## Other approaches and inspiration
 
 In [Randal Olsen](http://www.randalolson.com/)'s [sample analysis](https://nbviewer.jupyter.org/github/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/example-data-science-notebook/Example%20Machine%20Learning%20Notebook.ipynb) of the iris data, he by  uses the data analysis checklist from [The Elements of Data Analytic Style](https://leanpub.com/datastyle) to ensure his analysis is not mediocre. You don't want a mediocre analysis either. 
 
@@ -115,7 +144,6 @@ In [Randal Olsen](http://www.randalolson.com/)'s [sample analysis](https://nbvie
 
 [yet another good example](https://nbviewer.jupyter.org/github/brianckeegan/Bechdel/blob/master/Bechdel_test.ipynb)
 
-The analysis and summaries in your projectYou want an outstanding and thorough analysis to attract employers and showcase your data science skills. 
 
 
 
