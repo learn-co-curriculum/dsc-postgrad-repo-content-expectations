@@ -37,7 +37,9 @@ Each section has a set of requirements and questions it should be able to addres
 
 ### Title
 
-As with the name of you files and repository, the title of the notebook should also be descriptive. "Project Notebook" is not as informative as "EDA, Modeling, and Evaluation". An even more descriptive title might be "House Price Prediction: Data Exploration, Modeling and Results". There should be no question in a viewer's mind as to what is contained in your notebook.
+As with the name of you files and repository, the title of the notebook should also be descriptive. "Project Notebook" is not as informative as "EDA, Modeling, and Evaluation". An even more descriptive title might be "House Price Prediction: Data Exploration, Modeling and Results". There should be no question in a viewer's mind as to what is contained in your notebook. 
+
+Beyond the title, you should also give an overview of your notebook's contents right at the top of the notebook. This allows a reader to easily skim for the content they're looking for, as well as to know exactly what is contained within the notebook.
 
 ### Business Understanding
 
@@ -82,11 +84,11 @@ An employer should be replicate your data cleaning and preparation, from the raw
 ### Modeling
 
 While model development is an interative process, not every analysis explored should be in your final project notebook.
-correct, iterative, and fully documented, including valid justification for decisions. Models are developed iteratively and justifiably, proceeding from a simple baseline model to more complex models.
+Models should be correct, iterative, and fully documented, including valid justification for decisions. Models are developed iteratively and justifiably, proceeding from a simple baseline model to more complex models.
 
 **Example questions to be answered:**
 
-- Is the information you are including absolutley relevant?
+- Is the information you are including absolutely relevant?
 - Is your final model specified in an equation or pseudocode, and not just specified in code?
 - When you describe the parameter or coefficients, do you describe them in real terms?
 - Have you examined any problems with the data that might be impacting the quality of your analysis or model?
@@ -134,12 +136,29 @@ The README is at once an abstract, a road map, and a how-to manual. While perhap
 
 ## Exercises
 
-### Notebook
+### 1) Notebook Exercise #1
 
-Examine the following selection from the Jupyter Notebook and identify what is missing...
-[ LINDSEY - do this a few times]
+Examine this screenshot of a Jupyter Notebook and identify which of these aspects is missing or incomplete:
 
-### README
+![notebook exercise 1 - overview section](images/notebook-exercise-1.png)
+
+- Descriptive title
+- Notebook overview
+- Project overview
+- Real-world value provided by this project 
+
+### 2) Notebook Exercise #2
+
+Examine this screenshot of a Jupyter Notebook and identify which of these aspects is missing or incomplete:
+
+![notebook exercise 2 - modeling](images/notebook-exercise-2.png)
+
+- Fully documented decision-making process
+- Justification for decisions
+- Considerations when choosing the metrics used
+- Inclusion of cross-validation, used correctly
+
+### 3) README Exercise
 
 Examine the README [here](https://github.com/learn-co-curriculum/dsc-postgrad_Project-Repository/blob/master/README.md) and identify which of these aspects is missing or incomplete (could be more than one):
 
@@ -152,13 +171,15 @@ Examine the README [here](https://github.com/learn-co-curriculum/dsc-postgrad_Pr
 - Reproduction instructions
 - Contact information
 
+You can explore a more polished version of the same project repository [here](https://github.com/learn-co-curriculum/dsc-postgrad_House-Price-Prediction) in order to see what changed from the examples we provided in the exercises above.
+
 ## Other Approaches and Inspiration
 
 In [Randal Olsen](http://www.randalolson.com/)'s [sample analysis](https://nbviewer.jupyter.org/github/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/example-data-science-notebook/Example%20Machine%20Learning%20Notebook.ipynb) on the Iris dataset, he uses the data analysis checklist from [The Elements of Data Analytic Style](https://leanpub.com/datastyle) to ensure his analysis is not mediocre. You don't want a mediocre analysis either!
 
-[another good example analysis](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition)
+Here is [another good example analysis](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition).
 
-[yet another good example](https://nbviewer.jupyter.org/github/brianckeegan/Bechdel/blob/master/Bechdel_test.ipynb)
+And here is [yet another good example](https://nbviewer.jupyter.org/github/brianckeegan/Bechdel/blob/master/Bechdel_test.ipynb).
 
 
 
