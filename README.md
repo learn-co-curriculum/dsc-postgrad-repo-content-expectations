@@ -1,4 +1,4 @@
-# Tables of content
+# Tables of Content
 
 In the previous sections you examined how files were organized in a repository, now you will shift to what is inside the files themselves. The focus of this section is not on the statistical validity of your analysis, but on the content **organization** and **presentation**. 
 
@@ -138,7 +138,7 @@ The README is at once an abstract, a road map, and a how-to manual. While perhap
 
 ### 1) Notebook Exercise #1
 
-Examine this screenshot of a Jupyter Notebook and identify which of these aspects is missing or incomplete:
+Examine this screenshot of a Jupyter Notebook and identify which of these aspects is missing or incomplete (could be more than one):
 
 ![notebook exercise 1 - overview section](images/notebook-exercise-1.png)
 
@@ -149,7 +149,7 @@ Examine this screenshot of a Jupyter Notebook and identify which of these aspect
 
 ### 2) Notebook Exercise #2
 
-Examine this screenshot of a Jupyter Notebook and identify which of these aspects is missing or incomplete:
+Examine this screenshot of a Jupyter Notebook and identify which of these aspects is missing or incomplete (could be more than one):
 
 ![notebook exercise 2 - modeling](images/notebook-exercise-2.png)
 
