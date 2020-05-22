@@ -1,4 +1,4 @@
-# Tables of Content
+# Content Expectations
 
 In the previous sections you examined how files were organized in a repository, now you will shift to what is inside the files themselves. The focus of this section is not on the statistical validity of your analysis, but on the content **organization** and **presentation**. 
 
