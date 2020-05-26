@@ -1,10 +1,13 @@
 # Content Expectations
 
+## Introduction
+
 In the previous sections you examined how files were organized in a repository, now you will shift to what is inside the files themselves. The focus of this section is not on the statistical validity of your analysis, but on the content **organization** and **presentation**. 
 
-## Learning Goals
+## Objectives
 
-In this lesson you will:
+You will be able to:
+
 - Review the minimum expectations of written data science project
 - List what enhances a project from the minimum to the exceptional
 - Compare the impact of rewritten sections to their original content
@@ -14,6 +17,7 @@ In this lesson you will:
 In [The Elements of Data Analytic Style](https://leanpub.com/datastyle), by [Jeff Leek](http://jtleek.com/), he writes: 
 
 > A written analysis should always include: 
+> 
 > -  A title
 > -  An introduction or motivation
 > -  A description of the statistics or machine learning models you used
@@ -37,7 +41,7 @@ Each section has a set of requirements and questions it should be able to addres
 
 ### Title
 
-As with the name of you files and repository, the title of the notebook should also be descriptive. "Project Notebook" is not as informative as "EDA, Modeling, and Evaluation". An even more descriptive title might be "House Price Prediction: Data Exploration, Modeling and Results". There should be no question in a viewer's mind as to what is contained in your notebook. 
+As with the name of your files and repository, the title of the notebook should also be descriptive. "Project Notebook" is not as informative as "EDA, Modeling, and Evaluation". An even more descriptive title might be "House Price Prediction: Data Exploration, Modeling and Results". There should be no question in a viewer's mind as to what is contained in your notebook. 
 
 Beyond the title, you should also give an overview of your notebook's contents right at the top of the notebook. This allows a reader to easily skim for the content they're looking for, as well as to know exactly what is contained within the notebook.
 
@@ -62,15 +66,15 @@ This section relates your data source and the properties of variables to the rea
 - What do the variables mean in actual language?
 - What is the target variable?
 - What is the range, scale, or distribution of each variable?
-- Who is in the sample or how was the data colllected?
+- Who is in the sample or how was the data collected?
 - What elements of the data will or will not address the business question?
 - Are there any issues related to data permissions, copyright, ethical issues, confidential information, etc.?
-- Are there any interesting aspects or anomolies in the data such as outliers or missing data?
+- Are there any interesting aspects or anomalies in the data such as outliers or missing data?
 - What additional data would be really helpful to your analysis? 
 
 ### Data Preparation
 
-An employer should be replicate your data cleaning and preparation, from the raw data to what is used in the analysis, using your data preparation code. A quality data preparation section fully documents and justifies decisions to merge, drop, or transform  variables. 
+An employer should be able to replicate your data cleaning and preparation, from the raw data to what is used in the analysis, using your data preparation code. A quality data preparation section fully documents and justifies decisions to merge, drop, or transform  variables. 
 
 **Example questions to be answered:**
 
@@ -83,7 +87,7 @@ An employer should be replicate your data cleaning and preparation, from the raw
 
 ### Modeling
 
-While model development is an interative process, not every analysis explored should be in your final project notebook.
+While model development is an iterative process, not every analysis explored should be in your final project notebook.
 Models should be correct, iterative, and fully documented, including valid justification for decisions. Models are developed iteratively and justifiably, proceeding from a simple baseline model to more complex models.
 
 **Example questions to be answered:**
@@ -113,12 +117,12 @@ Evaluation is not just about accuracy or r-squared score. While those metrics ar
 
 ## README Content
 
-The README is at once an abstract, a road map, and a how-to manual. While perhaps not labeled explicity, a quality README includeds: 
+The README is at once an abstract, a road map, and a how-to manual. While perhaps not labeled explicitly, a quality README includes: 
 
 ### Content summary
 
 - Detailed description of your business question
-- A summary of your data science process, findings, and ideas for future improvment
+- A summary of your data science process, findings, and ideas for future improvement
 - At least one interesting visualization from your analysis
 
 ### Road map
@@ -140,7 +144,6 @@ Here is [another good example analysis](https://github.com/guillaume-chevalier/L
 
 And here is [yet another good example](https://nbviewer.jupyter.org/github/brianckeegan/Bechdel/blob/master/Bechdel_test.ipynb).
 
+## Summary
 
-
-
-
+Great! Now that you know more details about how to structure Jupyter Notebook and README content, let's move on to some exercises.
